@@ -4,11 +4,7 @@ For the project contained within this repository, we put ourselves in the positi
 
 The Batch file within this repository can be called by the Windows Command Prompt Application to call the Python, R, and Go code (also contained within this repository) to execute the benchmark testing experiment described above.  We see that Go, Python, and R were able to successfully calculate the correct values for the summary statistics (including minimum, maximum and mean) for each of the seven variables in the CSV input dataset.  Each of the three programming languages also conducted 100 iterations of these calculations, so that we could gain a representative sample of benchmark test trial times for each programming language.  The three programs printed their summary statistics calculations, as well as their eperimental runtimes to the output text files contained within this repository.
 
-We see that the Python benchmarking experiment trial runtimes ranged from ____________________ to _________________ microseconds, with a median runtime of __________________ microseconds.  The runtime distribution also exhibited somewhat of a ___________________ skew, causing the mean runtime of _______________________ microseconds to be a bit greater than the median runtime.
-
-For the R benchmarking experiments, we see that the distribution of trial runtimes ranged from _____________ to __________________ microseconds and had a median of _______________ microseconds.  We also see that there was _____________________ skew to the runtimes distribution - leading the mean of ____________________ microseconds to be greater than the median.
-
-We see that for the Go benchmarking experiment trial runtimes ranged from _____________________ to _________________________ microseconds. We also see that the mean benchmark experiment trial runtime using Go was _____________________________ microseconds.  
+By examining the results, we see that the average benchmarking experiment trial runtimes for Go, Python, and R were __________________, _______________, and _______________, respectively.
 
 If I were to make a recommendation to management based on the findings of this study, I would encourage leadership to consider its organizational objectives when deciding whether to leverage Python, R, or Go for future data science projects.  That's because each of these three languages comes with its own distinct advantages and disadvantages, which we will review below.
 
